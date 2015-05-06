@@ -8,5 +8,6 @@ public class HelloWorld {
 
         Converter converter = new Converter();
         System.out.printf("PerformanceS=%s (%s%%)%n", converter.getPerformance(), converter.getPerformancePercent());
+        converter.get();
     }
 }
